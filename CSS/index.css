@@ -1,0 +1,16 @@
+table{
+  background-color: rgb(236, 223, 223);
+  /* border: 2px solid blue; */
+  font-size: 20px;
+  color: rgb(135, 7, 139);
+}
+
+th, td{
+  /* background: burlywood; */
+  border: 2px outset;
+}
+th, .bold{
+  color: rgb(37, 40, 182);
+  font-weight:700;
+}
+
