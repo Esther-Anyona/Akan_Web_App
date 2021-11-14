@@ -1,3 +1,8 @@
+body{
+  background-color: rgb(115, 140, 187);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+}
 table{
   background-color: rgb(236, 223, 223);
   /* border: 2px solid blue; */
@@ -12,5 +17,15 @@ th, td{
 th, .bold{
   color: rgb(37, 40, 182);
   font-weight:700;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 550px;
+  color: rgb(135, 7, 139);
+
 }
 
