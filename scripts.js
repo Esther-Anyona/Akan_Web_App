@@ -38,7 +38,3 @@ formData.addEventListener('submit', function (){
   });
 
 
-formData.onsubmit ()
-if (dayOfWeek[0] && maleNames[0] ) {
-  alert("Kwasi");
-}
