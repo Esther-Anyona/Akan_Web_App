@@ -2,9 +2,24 @@ body{
   background-color: rgb(115, 140, 187);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height: 100%;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1{
+  color:rgb(135, 7, 139);
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+p{
+  color: rgb(37, 40, 182);
+  font-weight: bold;
+  font-size: 20px;
 }
 table{
-  background-color: rgb(236, 223, 223);
+  background-color: rgb(202, 191, 191);
   /* border: 2px solid blue; */
   font-size: 20px;
   color: rgb(135, 7, 139);
@@ -20,12 +35,20 @@ th, .bold{
 }
 
 .container{
-  display:flex;
-  justify-content: center;
-  margin: 0 auto;
+  background-color: rgb(202, 191, 191);
+  margin: 20px;
   padding: 20px;
   width: 80%;
   color: rgb(135, 7, 139);
-
+  border: 2px outset;
+}
+.form-group{
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
+label{
+  font-weight: 800;
+  padding: 10px;
+}

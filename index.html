@@ -46,42 +46,32 @@
   </table>
   <div class="container">
     <p>Fill the form below and find out your Akan name!</p>
-    <form id="form">
+    <form action="submit" id="form">
       <div class="form-group">
         <label for="Year">Year</label>
-        <input type="number" placeholder="Year of birth e.g. 1989" id="year"><br><br>
+        <input type="number" placeholder="Year of birth e.g. 1989" id="year">
       </div>
-      <br>
       <div class="form-group">
         <label for="Month">Month</label>
-        <input type="number" placeholder="MM" id="month" min="1" max="12"><br><br>
+        <input type="number" placeholder="MM" id="month" min="1" max="12">
       </div>
-      <br>
       <div class="form-group">
         <label for="Day">Day</label>
         <input type="number" placeholder="DD" id="day" min="1" max="31">
       </div>
-      <br>
-      <br>
       <div class="form-group">
         <label for="Gender">Select Gender</label>
       </div>
-      <br>
-      <br>
       <div class="form-group">
-        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="male" value="Male" checked>Male
       </div>
-      <br>
       <div class="form-group">
-        <input type="radio" name="gender" value="Fale">Female
+        <input type="radio" name="female" value="Female">Female
       </div>
-      <br>
-      <br>
       <button type="submit" class="btn-default">Submit</button>
-      <br>
-      <br>
       <button type="reset" class="btn-default">Reset</button>
     </form>
+    <p id="results"></p>
   </div>
   <script src="scripts.js"></script>
 </body>
