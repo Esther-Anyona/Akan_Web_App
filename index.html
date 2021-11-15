@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ghana's Akan names</title>
   <link rel="stylesheet" href="CSS/index.css">
+  <!-- <link rel="stylesheet" href="CSS/bootstrap.css"> -->
 </head>
 <body>
   <h1>Akan Names</h1>
@@ -44,22 +45,42 @@
     </tr>
   </table>
   <div class="container">
-    <form action="">
-      <p>Fill the form below and find out your Akan name!</p>
-      <label for="Year">Year</label>
-      <input type="number" placeholder="Year of birth e.g. 1989" id="year"><br><br>
-      <label for="Month">Month</label>
-      <input type="number" placeholder="Enter month e.g. 6 for June" id="month" min="1" max="12"><br><br>
-      <label for="Day">Day</label>
-      <input type="number" placeholder="Enter day" id="day" min="1" max="31">
+    <p>Fill the form below and find out your Akan name!</p>
+    <form id="form">
+      <div class="form-group">
+        <label for="Year">Year</label>
+        <input type="number" placeholder="Year of birth e.g. 1989" id="year"><br><br>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Month">Month</label>
+        <input type="number" placeholder="MM" id="month" min="1" max="12"><br><br>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Day">Day</label>
+        <input type="number" placeholder="DD" id="day" min="1" max="31">
+      </div>
       <br>
       <br>
-      <label for="Gender">Select Gender</label><br><br>
-      <input type="radio" name="gender" value="Male">Male
-      <input type="radio" name="gender" value="Fale">Female
+      <div class="form-group">
+        <label for="Gender">Select Gender</label>
+      </div>
       <br>
       <br>
-      <input type="submit">
+      <div class="form-group">
+        <input type="radio" name="gender" value="Male">Male
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="radio" name="gender" value="Fale">Female
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn-default">Submit</button>
+      <br>
+      <br>
+      <button type="reset" class="btn-default">Reset</button>
     </form>
   </div>
   <script src="scripts.js"></script>
