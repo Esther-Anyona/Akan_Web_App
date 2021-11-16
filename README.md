@@ -2,7 +2,7 @@
 
 #### Author: Esther Kemunto Anyona
 
-![Esther](url)
+![Esther](/Assets/Akanshot.png)
 
 ### This is my Independent Project for Week 2 in Prep
 ## Table of Contents
