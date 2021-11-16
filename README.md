@@ -1,6 +1,6 @@
 ## Akan Web App
 
-#### Author: Esther Kemunto Anyona
+#### Author: Esther Kemunto Anyona ![Esther](https://avatars.githubusercontent.com/u/91239599?v=4g)
 
 ### This is my Independent Project for Week 2 in Prep
 
@@ -16,15 +16,17 @@
 1. Contact Information
 1. Licence & Copyright
 
+
 ## Description
 
 <p>This is a web application that one can use to find their "Akan" name by inputting their Date of birth. The Akan name is derived from the day of the week a person was born. Akan names are borrowed from Ghanian culture.</p>
+
 
 ## Installation Requirements
 
 * Anyone with a computer, smart phone, tablet or Ipad can access the app
 * It will require an internet connection 
-* 
+
 
 ## Installation
 
@@ -36,8 +38,8 @@
 - Create an application that allows the user to enter their birth date. All fie;d values should be numbers.
 - The application should check whether the date and month entered is valid. If either of them is invalid,  the user should be alerted and asked to enter a valid one. 
 - The application should check whether the year is valid, check the number of integers for the year field.
-- The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender.
--  
+- The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender. 
+
 
 ## Technology Used
 
@@ -46,10 +48,12 @@
 * JavaScript - to enable interactivity
 * Bootstrap - provide custom style library
 
+
 ## Contact Information
 
 * email - jkemuntoe@gmail.com
 * GitHub - https://github.com/Esther-Anyona
+
 
 ## Licence & Copyright
 
