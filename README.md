@@ -1,7 +1,6 @@
 ## Akan Web App
 
-#### Author: Esther Kemunto Anyona: https://github.com/Esther-Anyona
-
+#### Author: Esther Kemunto Anyona
 ### This is my Independent Project for Week 2 in Prep
 
 

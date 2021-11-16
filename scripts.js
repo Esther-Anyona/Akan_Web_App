@@ -17,6 +17,10 @@ function akanName(){
     alert("Empty entry! confirm that all entries are filled before submitting");
     return false;
   }
+  if (year.value.length!=4){
+    alert("Enter valid value for year e.g. 1989");
+    return false;
+  }
   if ((month.value<1) || (month.value>12)){
     alert("Enter a valid value for month");
     return false;
