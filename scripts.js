@@ -15,12 +15,12 @@ function akanName(){
   var genderFemale= document.getElementById("female");
 
   if (genderMale.checked){
-    alert("Your Akan name is" + " " + maleNames[calculateDay.getDay()] + " " + "and you were born on a" + " " + daysOfWeek[calculateDay.getDay()]);
-    year.value=""; month.value=""; day.value="";
+    alert("Hey!" + " " + "You are a male and your Akan name is" + " " + maleNames[calculateDay.getDay()] + " " + ": You were born on a" + " " + daysOfWeek[calculateDay.getDay()]);
+    // year.value=""; month.value=""; day.value="";
   }
   else if(genderFemale.checked){
-    alert("Your Akan name is" + " " + femaleNames[calculateDay.getDay()] + " " + "and you were born on a" + " " + daysOfWeek[calculateDay.getDay()]);
-    year.value=""; month.value=""; day.value="";
+    alert("Hey!" + " " + "You are a female and your Akan name is" + " " + femaleNames[calculateDay.getDay()] + " " + ": You were born on a" + " " + daysOfWeek[calculateDay.getDay()]);
+    // year.value=""; month.value=""; day.value="";
   }
 }
 
