@@ -6,6 +6,7 @@ function akanName(){
   var YY= parseInt(year.value.slice(2,4));
   var MM= parseInt(month.value);
   var DD= parseInt(day.value);
-  alert(CC);
+  var dateOfBirth= (MM + "/" + DD + "/" + CC + YY);
+  var calculateDay= new Date (dateOfBirth);
 }
 
