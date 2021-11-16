@@ -2,9 +2,11 @@
 
 #### Author: Esther Kemunto Anyona
 
+### This is my Independent Project for Week 2 in Prep
+
+
 ![Esther](/Assets/Akanshot.png)
 
-### This is my Independent Project for Week 2 in Prep
 ## Table of Contents
 1. Description
 1. Installation Requirements
