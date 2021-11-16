@@ -46,7 +46,7 @@
   </table>
   <div class="container">
     <p>Fill the form below and find out your Akan name!</p>
-    <form action="submit" id="form">
+    <form action="#" id="form">
       <div class="form-group">
         <label for="Year">Year</label>
         <input type="number" placeholder="YYYY" id="year">
@@ -63,15 +63,14 @@
         <label for="Gender">Select Gender</label>
       </div>
       <div class="form-group">
-        <input type="radio" name="male" value="Male" checked>Male
+        <input type="radio" name="gender" value="male" id="male">Male
       </div>
       <div class="form-group">
-        <input type="radio" name="female" value="Female">Female
+        <input type="radio" name="gender" value="female" id="female">Female
       </div>
-      <button type="submit" class="button">Submit</button>
+      <button type="submit" class="button" onclick="akanName()">Submit</button>
       <button type="reset" class="button">Reset</button>
     </form>
-    <p id="results"></p>
   </div>
   <script src="scripts.js"></script>
 </body>

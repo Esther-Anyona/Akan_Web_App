@@ -16,12 +16,13 @@
 
 ## Description
 
-<p>This is a landing page website for my personal portfolio. It gives a brief overview of my background, education, work and professional experience and interests.</p>
+<p>This is a web appliction that one can use to find their "Akan" name by inputting their Date of birth. The Akan name is derived from the day of the week a person was born.</p>
 
 ## Installation Requirements
 
-* Anyone with a computer, smart phone, tablet or Ipad can access the page
+* Anyone with a computer, smart phone, tablet or Ipad can access the app
 * It will require an internet connection 
+* 
 
 ## Installation
 
@@ -31,7 +32,8 @@
 
 * HTML - HyperText MarkUp Language used to build the structure of the webpage.
 * CSS - This is the styling technique that was used to style the page elements 
-* JavaScript
+* JavaScriptvar formData= document.getElementById('form');
+* Bootstrap
 
 ## Contact Information
 
