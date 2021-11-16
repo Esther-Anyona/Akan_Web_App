@@ -8,5 +8,9 @@ function akanName(){
   var DD= parseInt(day.value);
   var dateOfBirth= (MM + "/" + DD + "/" + CC + YY);
   var calculateDay= new Date (dateOfBirth);
+  var daysOfWeek= ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var maleNames= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  var femaleNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  
 }
 
