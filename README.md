@@ -1,6 +1,6 @@
 ## Akan Web App
 
-#### Author: Esther Kemunto Anyona ![Esther](https://avatars.githubusercontent.com/u/91239599?v=4g)
+#### Author: Esther Kemunto Anyona: https://github.com/Esther-Anyona
 
 ### This is my Independent Project for Week 2 in Prep
 
@@ -9,8 +9,7 @@
 
 ## Table of Contents
 1. Description
-1. Installation Requirements
-1. Installation
+1. Setup Instructions
 1. BDD
 1. Technologies Used
 1. Contact Information
@@ -22,14 +21,10 @@
 <p>This is a web application that one can use to find their "Akan" name by inputting their Date of birth. The Akan name is derived from the day of the week a person was born. Akan names are borrowed from Ghanian culture.</p>
 
 
-## Installation Requirements
+## Setup Instructions
 
 * Anyone with a computer, smart phone, tablet or Ipad can access the app
 * It will require an internet connection 
-
-
-## Installation
-
 <p>With a good internet connection, click on the live link https://esther-anyona.github.io/Akan_Web_App/ to see how the website looks like. You can fork a copy from my account https://github.com/Esther-Anyona, clone and make changes as you would like. Be free to propose changes to make this software better.</p>
 
 
