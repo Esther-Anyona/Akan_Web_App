@@ -32,7 +32,7 @@
 
 * HTML - HyperText MarkUp Language used to build the structure of the webpage.
 * CSS - This is the styling technique that was used to style the page elements 
-* JavaScriptvar formData= document.getElementById('form');
+* JavaScript
 * Bootstrap
 
 ## Contact Information
