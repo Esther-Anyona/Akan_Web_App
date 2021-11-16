@@ -10,7 +10,7 @@
 ## Table of Contents
 1. Description
 1. Installation Requirements
-1. Setup Instructions
+1. Installation
 1. BDD
 1. Technologies Used
 1. Contact Information
@@ -18,7 +18,7 @@
 
 ## Description
 
-<p>This is a web appliction that one can use to find their "Akan" name by inputting their Date of birth. The Akan name is derived from the day of the week a person was born.</p>
+<p>This is a web application that one can use to find their "Akan" name by inputting their Date of birth. The Akan name is derived from the day of the week a person was born. Akan names are borrowed from Ghanian culture.</p>
 
 ## Installation Requirements
 
@@ -28,19 +28,28 @@
 
 ## Installation
 
-<p>With a good internet connection, click on the live link to see how the website looks like. You can fork a copy from my account, clone and make changes as you would like. Be free to propose changes to make this software better.</p>
+<p>With a good internet connection, click on the live link https://esther-anyona.github.io/Akan_Web_App/ to see how the website looks like. You can fork a copy from my account https://github.com/Esther-Anyona, clone and make changes as you would like. Be free to propose changes to make this software better.</p>
+
+
+## BDD
+
+- Create an application that allows the user to enter their birth date. All fie;d values should be numbers.
+- The application should check whether the date and month entered is valid. If either of them is invalid,  the user should be alerted and asked to enter a valid one. 
+- The application should check whether the year is valid, check the number of integers for the year field.
+- The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender.
+-  
 
 ## Technology Used
 
 * HTML - HyperText MarkUp Language used to build the structure of the webpage.
 * CSS - This is the styling technique that was used to style the page elements 
-* JavaScript
-* Bootstrap
+* JavaScript - to enable interactivity
+* Bootstrap - provide custom style library
 
 ## Contact Information
 
 * email - jkemuntoe@gmail.com
-* GitHub - Esther-Anyona
+* GitHub - https://github.com/Esther-Anyona
 
 ## Licence & Copyright
 
